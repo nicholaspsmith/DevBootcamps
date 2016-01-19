@@ -13,6 +13,7 @@
 		01CA37701C4C89B100DFBDB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01CA376E1C4C89B100DFBDB2 /* Main.storyboard */; };
 		01CA37721C4C89B100DFBDB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01CA37711C4C89B100DFBDB2 /* Assets.xcassets */; };
 		01CA37751C4C89B100DFBDB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01CA37731C4C89B100DFBDB2 /* LaunchScreen.storyboard */; };
+		01E20C3D1C4E00DB009BD168 /* BootcampAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E20C3C1C4E00DB009BD168 /* BootcampAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		01CA37711C4C89B100DFBDB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01CA37741C4C89B100DFBDB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01CA37761C4C89B100DFBDB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E20C3C1C4E00DB009BD168 /* BootcampAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootcampAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				01CA37711C4C89B100DFBDB2 /* Assets.xcassets */,
 				01CA37731C4C89B100DFBDB2 /* LaunchScreen.storyboard */,
 				01CA37761C4C89B100DFBDB2 /* Info.plist */,
+				01E20C3C1C4E00DB009BD168 /* BootcampAnnotation.swift */,
 			);
 			path = DevBootcamps;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				01CA376D1C4C89B100DFBDB2 /* LocationVC.swift in Sources */,
 				01CA37691C4C89B100DFBDB2 /* AppDelegate.swift in Sources */,
 				01CA376B1C4C89B100DFBDB2 /* FirstViewController.swift in Sources */,
+				01E20C3D1C4E00DB009BD168 /* BootcampAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
