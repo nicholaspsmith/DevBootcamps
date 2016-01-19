@@ -75,6 +75,20 @@ class LocationVC: UIViewController, UITableViewDelegate, UITableViewDataSource, 
         }
     }
     
+    func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
+        // Intercept pin before it is actually dropped
+        if annotation.isKindOfClass(BootcampAnnotation) {
+            let annoView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "Default")
+            annoView.pinTintColor = UIColor.blueColor()
+            annoView.animatesDrop = true
+            return annoView
+        } else if annotation.isKindOfClass(MKUserLocation) {
+            return nil
+        }
+        
+        return nil
+    }
+    
     func createAnnotationForLocation(location: CLLocation) {
         let bootcamp = BootcampAnnotation(coordinate: location.coordinate)
         map.addAnnotation(bootcamp)
